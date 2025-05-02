@@ -1,1 +1,54 @@
 @import "tailwindcss";
+
+
+
+.react-select__control {
+    border: none !important;
+    box-shadow: none !important; /* Fokusda chiqadigan ramkani ham yo'qotadi */
+    border-radius: 8px;
+    min-height: 42px;
+    font-size: 15px;
+    background-color: white;
+  }
+
+  .react-select__value-container {
+    padding: 2px 8px;
+  }
+
+  .react-select__input {
+    margin: 0;
+    padding: 0;
+  }
+
+  .react-select__placeholder {
+    color: #999;
+  }
+
+  .react-select__menu {
+    margin-top: 4px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+  }
+
+  .react-select__option {
+    padding: 10px;
+  }
+
+  .react-select__option--is-focused {
+    background-color: #f2f4ff;
+  }
+
+  .react-select__option--is-selected {
+    background-color: #e6eaff;
+    font-weight: 500;
+  }
+
+  .react-select__indicator-separator {
+    display: none;
+  }
+
+  .react-select__clear-indicator {
+    padding-right: 8px;
+    cursor: pointer;
+  }
