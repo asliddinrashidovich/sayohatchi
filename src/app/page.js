@@ -1,9 +1,10 @@
 import Cards from "@/components/cards"
-import HeaderTop from "@/components/header-top"
+import Hero from "@/components/hero"
 
 function Page() {
   return (
     <>
+      <Hero/>
       <Cards/>
     </>
   )
